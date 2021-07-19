@@ -1,5 +1,6 @@
 import emotionsData from "../../data/emotions";
 import styles from "../../styles/emotions-card.module.css";
+import { basePath } from "../../next.config";
 
 interface EmotionCardProps {
   id: string;
@@ -12,7 +13,7 @@ function EmotionCard({ id }: EmotionCardProps) {
       <main className={styles.card}>
         <h1 className={styles.title}>{data.title}</h1>
         <div className={styles.divider}>
-          <img src="/divider.png" alt="" />
+          <img src={`${basePath}/divider.png`} alt="" />
         </div>
         <p className={styles.subtitle1}>{data.subtitle1}</p>
         <p className={styles.subtitle2}>{data.subtitle2}</p>

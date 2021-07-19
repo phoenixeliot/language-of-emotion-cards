@@ -43,7 +43,7 @@ const emotionsData = {
     questions: ["What is being avoided?", "What must be made conscious?"],
     signsOfObstruction: (
       <p>
-        Monotonous indifference, impassivity, or distractibility that halts
+        Monotonous indifference, impassivity, or&nbsp;distractibility that halts
         creative action
       </p>
     ),

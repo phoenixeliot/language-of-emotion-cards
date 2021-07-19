@@ -76,12 +76,8 @@
 }
 
 .sectionBody p {
-  margin: 0 7px;
+  margin: 7px 0;
 }
-
-/* .sectionBody p ~ p {
-  margin-top: 7px;
-} */
 
 .plainList {
   list-style: none;

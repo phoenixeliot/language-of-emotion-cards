@@ -1,12 +1,9 @@
-// const fs = require('fs').promises
-import Image from "next/image";
 import emotionsData from "../../data/emotions";
 import styles from "../../styles/emotions-card.module.css";
 import dividerImg from "../../public/divider.png";
 
 interface EmotionCardProps {
   id: string;
-  // data: { [key: string]: any };
 }
 
 function EmotionCard({ id }: EmotionCardProps) {
@@ -16,12 +13,7 @@ function EmotionCard({ id }: EmotionCardProps) {
       <main className={styles.card}>
         <h1 className={styles.title}>{data.title}</h1>
         <div className={styles.divider}>
-          <Image
-            className={styles.divider}
-            src={dividerImg}
-            alt=""
-            layout="fixed"
-          />
+          <img src="/divider.png" alt="" />
         </div>
         <p className={styles.subtitle1}>{data.subtitle1}</p>
         <p className={styles.subtitle2}>{data.subtitle2}</p>

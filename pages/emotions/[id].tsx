@@ -1,6 +1,5 @@
 import emotionsData from "../../data/emotions";
 import styles from "../../styles/emotions-card.module.css";
-import dividerImg from "../../public/divider.png";
 
 interface EmotionCardProps {
   id: string;

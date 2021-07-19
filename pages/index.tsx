@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 // import styles from "../styles/Home.module.css";
 import styles from "../styles/emotions-list.module.css";
 import styles2 from "../styles/emotions-card.module.css";
@@ -10,9 +11,9 @@ export default function Home() {
       <ul className={styles.emotionLinkList}>
         {Object.entries(emotionsData).map(([emotionId, emotionData]) => (
           <li key={emotionId} className={styles.emotionLinkListItem}>
-            <a href={`/emotions/${emotionId}`} className={styles.linkTitle}>
-              {emotionData.title}
-            </a>
+            <Link href={`/emotions/${emotionId}`}>
+              <a className={styles.linkTitle}>{emotionData.title}</a>
+            </Link>
           </li>
         ))}
       </ul>

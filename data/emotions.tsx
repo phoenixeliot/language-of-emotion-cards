@@ -14,15 +14,17 @@ const emotionsData = {
     signsOfObstruction: (
       <>
         <p>
-          Repressive:
+          <u>Repressive:</u>
           <br />
-          Enmeshment, self-abandonment, apathy, depression, boundary loss
+          Enmeshment, self-abandonment, apathy,
+          <br />
+          depression, boundary loss
         </p>
         <p>
-          Expressive:
+          <u>Expressive:</u>
           <br />
-          Cycling rages that create harsh boundaries; hatred and prejudice;
-          isolation
+          Cycling rages that create harsh boundaries;
+          hatred&nbsp;and&nbsp;prejudice; isolation
         </p>
       </>
     ),
@@ -112,7 +114,11 @@ const emotionsData = {
     ],
     questions: ["What action should be taken?"],
     signsOfObstruction: (
-      <p>Constant worries or anxieties that decrease your focus and clarity</p>
+      <p>
+        Constant worries or anxieties that
+        <br />
+        decrease your focus and clarity
+      </p>
     ),
     practice: (
       <>
@@ -133,7 +139,7 @@ const emotionsData = {
       "Malleability",
       "Taking a time-out",
     ],
-    questions: ["What is my intention? What action should be taken?"],
+    questions: ["What is my intention?", "What action should be taken?"],
     signsOfObstruction: (
       <p>
         Being unable to decide, act, or believe in yourself or your decisions
@@ -153,12 +159,12 @@ const emotionsData = {
     subtitle1: "Relational Radar",
     subtitle2: "Includes Greed",
     gifts: ["Fairness", "Commitment", "Security", "Connection", "Loyalty"],
-    questions: ["What has been betrayed? What must be healed and restored?"],
+    questions: ["What has been betrayed?", "What must be healed and restored?"],
     signsOfObstruction: (
       <p>
         Cycling suspicions that don’t bring useful awareness to you or stability
         to your relationships; or fevered avarice that places your needs above
-        all other things, including logic and honor
+        all other things, including&nbsp;logic&nbsp;and&nbsp;honor
       </p>
     ),
     practice: (
@@ -182,7 +188,8 @@ const emotionsData = {
       "Healing from trauma",
     ],
     questions: [
-      "What has been frozen in time? What healing action must be taken?",
+      "What has been frozen in time?",
+      "What healing action must be taken?",
     ],
     signsOfObstruction: (
       <p>Cycling attacks of panic and terror that immobilize and torment you</p>
@@ -201,9 +208,11 @@ const emotionsData = {
     subtitle1: "Release and Rejuvenation",
     subtitle2: "Includes Despair and Despondency",
     gifts: ["Release", "Fluidity", "Grounding", "Relaxation", "Revitalization"],
-    questions: ["What must be released? What must be rejuvenated?"],
+    questions: ["What must be released?", "What must be rejuvenated?"],
     signsOfObstruction: (
-      <p>Unmoving despair that does not bring resolution or relaxation</p>
+      <p>
+        Unmoving despair that does not bring resolution&nbsp;or&nbsp;relaxation
+      </p>
     ),
     practice: (
       <>
@@ -219,7 +228,7 @@ const emotionsData = {
     subtitle1: "The Deep River of the Soul",
     subtitle2: null,
     gifts: ["Complete immersion in the river of all souls"],
-    questions: ["What must be mourned? What must be released completely?"],
+    questions: ["What must be mourned?", "What must be released completely?"],
     signsOfObstruction: (
       <p>
         Unwillingness to accept or honor loss, death, or profound transitions
@@ -240,7 +249,7 @@ const emotionsData = {
     subtitle1: "Ingenious Stagnation",
     subtitle2: "Focusing on Situational Depression",
     gifts: ["The brilliant stop sign of the soul"],
-    questions: ["Where has my energy gone? Why was it sent away?"],
+    questions: ["Where has my energy gone?", "Why was it sent away?"],
     signsOfObstruction: (
       <p>
         Cycling despairs, angers, shames, anxieties, and manic elations that
@@ -356,14 +365,15 @@ const emotionsData = {
     statements: ["Thank you for this radiant moment!"],
     signsOfObstruction: (
       <p>
-        Inability to feel connected to humanity or the world, or unwillingness
-        to release joy and feel your other emotions
+        Inability to feel connected to humanity or the world,
+        or&nbsp;unwillingness to release joy and feel your other emotions
       </p>
     ),
     practice: (
       <>
-        Celebrate your joyousness and let it flow naturally. Joy will seek you
-        out if you let it move in its own time and in its own way—not in yours.
+        Celebrate your joyousness and let it flow naturally. Joy&nbsp;will seek
+        you out if you let it move in its own time and in its own way—not in
+        yours.
       </>
     ),
   },

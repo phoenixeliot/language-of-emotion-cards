@@ -10,7 +10,7 @@ const emotionsData = {
       "Protection of yourself and others",
       "Healthy detachment",
     ],
-    questions: ["What must be protected?", "What must be restored?"],
+    questions: ["What do I value?", "What must be protected and restored?"],
     signsOfObstruction: (
       <>
         <p>
